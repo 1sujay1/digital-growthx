@@ -5121,6 +5121,7 @@ span {
   font-size: 16px;
   line-height: 1;
 }
+
 .main-sidebar .single-sidebar-widget .news-widget-categories ul li a {
   color: var(--header);
 }
@@ -5244,6 +5245,9 @@ span {
   margin-bottom: 20px;
   border-bottom: 1px solid #f2f5fa;
   padding-bottom: 20px;
+}
+#home {
+  margin-top: 4rem;
 }
 .news-details-wrapper
   .news-post-details
