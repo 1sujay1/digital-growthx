@@ -3824,6 +3824,7 @@ span {
 .navbarStyle {
   position: fixed;
   padding: 0;
+  color: green;
 }
 .nav-inner-div {
   height: 70px;
@@ -5105,6 +5106,9 @@ span {
 }
 .main-sidebar .single-sidebar-widget .search-widget form button:hover {
   background-color: var(--header);
+}
+.news-widget-categories {
+  background-color: green;
 }
 .main-sidebar .single-sidebar-widget .news-widget-categories ul li {
   display: flex;
