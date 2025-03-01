@@ -3821,6 +3821,13 @@ span {
 .navbar-brand {
   padding-left: 5%;
 }
+.navbarStyle {
+  position: fixed;
+  padding: 0;
+}
+.nav-inner-div {
+  height: 70px;
+}
 .page-nav-wrap ul li .page-numbers {
   display: inline-block;
   width: 50px;
@@ -6834,7 +6841,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 991px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 27px 0;
   }
 }
 

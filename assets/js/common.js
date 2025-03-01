@@ -1,6 +1,6 @@
 const headerHTML = `<header class="header-area">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
+  <nav class="navbarStyle navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid nav-inner-div">
       <!-- Logo -->
       <a class="navbar-brand" href="/">
         <img src="/assets/img/logo/black-logo.png" alt="Digital GrowthX Logo" />
