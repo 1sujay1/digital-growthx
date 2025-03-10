@@ -192,7 +192,7 @@ nav {
 .main-button .theme-btn {
   display: inline-block;
   padding: 19.5px 35px;
-  background-color:#241df2;;
+  background-color:#241df2;
   color: var(--white);
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
