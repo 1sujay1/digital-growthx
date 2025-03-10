@@ -4,7 +4,8 @@ Description: Digital GrowthX - Digital Marketing Agency Html Template
 Version: 1.0.0 */
 /* CSS Table Of Content Starts Here */
 :root {
-  --theme: #6a47ed;
+  
+  --theme: #241df2;
   --theme2: #c6f806;
   --header: #17012c;
   --text: #504e4e;
@@ -191,7 +192,7 @@ nav {
 .main-button .theme-btn {
   display: inline-block;
   padding: 19.5px 35px;
-  background-color: var(--theme);
+  background-color:#241df2;;
   color: var(--white);
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
@@ -1389,7 +1390,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: var(--theme);
+  background-color:#241df2;
   right: 50px;
   left: 50px;
   border-radius: 30px;
