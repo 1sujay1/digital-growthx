@@ -50,11 +50,13 @@ h6 {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: var(--header);
   text-transform: capitalize;
+  
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 70px;
   line-height: 125%;
+  
 }
 h2 {
   font-size: 48px;
@@ -5899,7 +5901,7 @@ input.main-search-input::placeholder {
   margin-left: 10px;
 }
 .pricing-box-items .price-button .theme-btn:hover {
-  background-color: var(--white);
+  background-color: #0c0cd1 ;
 }
 .pricing-box-items.style-2 .pricing-header {
   background: #4017f6;
@@ -5907,8 +5909,8 @@ input.main-search-input::placeholder {
 .pricing-box-items.style-2 .price-button .theme-btn {
   border: 1.5px solid var(--theme);
   display: inline-block;
-  color: var(--theme);
-  background: transparent;
+  color: white;
+  background:  #0c0cd1;
 }
 .pricing-box-items.style-2 .price-button .theme-btn:hover {
   background-color: var(--theme);
