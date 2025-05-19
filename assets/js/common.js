@@ -57,9 +57,9 @@ const footerHTML = `
                                 </div>
                                 <div class="footer-content">
                                     <p>
-                                        Phasellus ultricies aliquam volutpat 
-                                        ullamcorper laoreet neque, a lacinia
-                                        curabitur lacinia mollis
+                                       Expert strategies that elevate brands —
+                                       dynamic solutions, creative insights,
+                                       transforming vision into growth.
                                     </p>
                                     <div class="social-icon d-flex align-items-center">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -73,43 +73,88 @@ const footerHTML = `
                         <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                             <div class="single-footer-widget">
                                 <div class="widget-head">
-                                    <h3>Quick Links</h3>
+                                    <h3>Our Services</h3>
                                 </div>
                                 <ul class="list-area">
                                     <li>
-                                        <a href="/about">
+                                        <a href="#">
                                             <i class="fa-solid fa-chevrons-right"></i>
-                                            About Us
+                                            Search Engine Optimization (SEO)
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/service">
+                                        <a href="#service">
                                             <i class="fa-solid fa-chevrons-right"></i>
-                                            Our Services
+                                            Social Media Marketing (SMM)
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/news">
+                                        <a href="#news">
                                             <i class="fa-solid fa-chevrons-right"></i>
-                                            Our Blogs
+                                            Google Ads & PPC Campaigns
                                         </a>
                                     </li>
-                                    <!-- <li>
-                                        <a href="/faq">
-                                            <i class="fa-solid fa-chevrons-right"></i>
-                                            FAQ’S
-                                        </a>
-                                    </li> -->
+                                    
                                     <li>
                                         <a href="/contact">
                                             <i class="fa-solid fa-chevrons-right"></i>
-                                            Contact Us
+                                            Content Marketing & Blogging
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/contact">
+                                            <i class="fa-solid fa-chevrons-right"></i>
+                                            Email Marketing
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+
+
+<div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <h3>Our Services</h3>
+                                </div>
+                                <ul class="list-area">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-chevrons-right"></i>
+                                            Website Development
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#service">
+                                            <i class="fa-solid fa-chevrons-right"></i>
+                                            Mobile App Development
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#news">
+                                            <i class="fa-solid fa-chevrons-right"></i>
+                                           Custom Website Development
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq">
+                                            <i class="fa-solid fa-chevrons-right"></i>
+                                            Web Hosting
+                                        </a>
+                                    </li> 
+                                    <li>
+                                        <a href="/contact">
+                                            <i class="fa-solid fa-chevrons-right"></i>
+                                            ECommerce Solutions
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <!--<div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                             <div class="single-footer-widget">
                                 <div class="widget-head">
                                     <h3>Recent Posts</h3>
@@ -155,7 +200,7 @@ const footerHTML = `
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
                             <div class="single-footer-widget">
                                 <div class="widget-head">
@@ -165,11 +210,11 @@ const footerHTML = `
                                     <ul class="contact-info">
                                         <li>
                                             <i class="fa-regular fa-envelope"></i>
-                                            <a href="mailto:info@example.com">digitalgrowthx@gmail.com</a>
+                                            <a href="mailto:info@example.com">info@digitalgrowthx.in</a>
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-phone-volume"></i>
-                                            <a href="tel:2086660112">+91-9952402011</a>
+                                            <a href="tel:2086660112">+91 73733 55877</a>
                                         </li>
                                     </ul>
                                     <div class="footer-input">
@@ -181,7 +226,8 @@ const footerHTML = `
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
                                         <label class="form-check-label" for="flexCheckChecked">
-                                            I agree to the <a href="/contact">Privacy Policy.</a>
+                                            <a href="/Terms-and-condition/index.html">Tems and Condition</a>
+                                            <a href="/Privacy-Policy/index.html">Privacy Policy</a>
                                         </label>
                                     </div>
                                 </div>
@@ -202,11 +248,11 @@ const footerHTML = `
                                     Terms & Condition       
                                 </a>
                             </li> -->
-                            <li>
+                            <!-- <li>
                                 <a href="/contact">
                                     Contact Us
                                 </a>
-                            </li>
+                            </li>-->
                         </ul> 
                     </div>
                 </div>

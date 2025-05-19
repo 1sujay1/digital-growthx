@@ -5,7 +5,7 @@ Version: 1.0.0 */
 /* CSS Table Of Content Starts Here */
 :root {
   
-  --theme: #241df2;
+  --theme: #3C0ED2;
   --theme2: #c6f806;
   --header: #17012c;
   --text: #504e4e;
@@ -158,7 +158,7 @@ nav {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   animation: fadeInUp 3s ease 0.4s forwards;
-  color: #1e08e1;
+  color: #3C0ED2;
 }
 
 /* Services Section */
@@ -194,7 +194,7 @@ nav {
 .main-button .theme-btn {
   display: inline-block;
   padding: 19.5px 35px;
-  background-color:#241df2;
+  background-color:#3C0ED2;
   color: var(--white);
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
@@ -1392,7 +1392,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background-color:#241df2;
+  background-color:#3C0ED2;
   right: 50px;
   left: 50px;
   border-radius: 30px;
@@ -3506,7 +3506,7 @@ span {
   }
 }
 .breadcrumb-wrapper .page-heading h1 {
-  color: var(--header);
+  color: white;
   font-size: 50px;
   position: relative;
   z-index: 9;
@@ -5892,7 +5892,7 @@ input.main-search-input::placeholder {
   width: 100%;
   padding: 12px 20px;
   border-radius: 16px;
-  background: #0c0cd1;
+  background: #3C0ED2;
   display: inline-block;
   color: var(--white);
   font-weight: 700;
@@ -5901,16 +5901,16 @@ input.main-search-input::placeholder {
   margin-left: 10px;
 }
 .pricing-box-items .price-button .theme-btn:hover {
-  background-color: #0c0cd1 ;
+  background-color: #3C0ED2 ;
 }
 .pricing-box-items.style-2 .pricing-header {
-  background: #4017f6;
+  background: #3C0ED2;
 }
 .pricing-box-items.style-2 .price-button .theme-btn {
   border: 1.5px solid var(--theme);
   display: inline-block;
   color: white;
-  background:  #0c0cd1;
+  background:  #3C0ED2;
 }
 .pricing-box-items.style-2 .price-button .theme-btn:hover {
   background-color: var(--theme);
@@ -8079,3 +8079,103 @@ input.main-search-input::placeholder {
     display: none;
   }
 } /*# sourceMappingURL=main.css.map */
+
+/* Mission /vission*/
+
+
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      padding: 40px;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .column {
+      flex: 1 1 45%;
+      min-width: 280px;
+    }
+
+    .column h2 {
+      font-size: 26px;
+      color: #1e2a55;
+      margin-bottom: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .column p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #555;
+      transition: all 0.3s ease;
+    }
+
+    .choose-us ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .choose-us ul li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 16px;
+      font-size: 16px;
+      color: #444;
+      opacity: 0;
+      animation: fadeIn 0.6s ease forwards;
+    }
+
+    .choose-us ul li:nth-child(1) { animation-delay: 0.2s; }
+    .choose-us ul li:nth-child(2) { animation-delay: 0.4s; }
+    .choose-us ul li:nth-child(3) { animation-delay: 0.6s; }
+    .choose-us ul li:nth-child(4) { animation-delay: 0.8s; }
+    .choose-us ul li:nth-child(5) { animation-delay: 1s; }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+
+    .choose-us ul li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #0d6efd;
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .section-container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .column {
+        flex: 1 1 100%;
+      }
+    }
+
+
+
