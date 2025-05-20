@@ -357,7 +357,12 @@
       }
     }
     $(function () {
-      mousecursor();
+      if (
+        typeof window !== "undefined" &&
+        window.innerWidth > 991 
+      ) {
+        mousecursor();
+      }
     });
 
     //>> Back To Top Slider Start <<//

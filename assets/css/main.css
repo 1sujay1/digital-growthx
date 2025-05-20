@@ -3857,6 +3857,10 @@ span {
     line-height: 50px;
     font-size: 14px;
   }
+  .nav-inner-div{
+    height: 100%;
+  }
+ 
 }
 .page-nav-wrap ul li .page-numbers i {
   margin-top: 2px;
@@ -5251,9 +5255,7 @@ span {
   border-bottom: 1px solid #f2f5fa;
   padding-bottom: 20px;
 }
-#home {
-  margin-top: 4rem;
-}
+
 .news-details-wrapper
   .news-post-details
   .single-news-post
@@ -5925,6 +5927,9 @@ input.main-search-input::placeholder {
 @media (max-width: 767px) {
   .pricing-content .pricing-tab-header {
     margin-bottom: 0;
+  }
+  .mouse-cursor{
+    display: none;
   }
 }
 .pricing-content .pricing-tab-header .arrow-shape {
