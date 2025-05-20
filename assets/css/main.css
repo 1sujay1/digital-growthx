@@ -8178,4 +8178,14 @@ input.main-search-input::placeholder {
     }
 
 
-
+    @media (max-width: 768px) {
+      .breadcrumb-wrapper {
+      background-image: none !important;
+      }
+      .page-heading{
+        padding: 0px !important;
+      }
+      .homeBreadCrumb,.pageBreadCrumb{
+        color: #3C0ED2;
+      }
+    }

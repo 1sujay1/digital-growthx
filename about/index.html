@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body>
+   
     <!-- Offcanvas Area Start -->
     <div class="fix-area">
       <div class="offcanvas__info">
@@ -133,12 +134,14 @@
     <!-- Breadcrumb Section Start -->
     <div
       class="breadcrumb-wrapper bg-cover"
-      style="background-image: url('/assets/img/audience-img.png')"
+      style="background-image: url('/assets/img/audience-img.png');"
     >
-      <div class="left-shape">
+    
+    
+      <div class="left-shape d-none d-md-block">
         <img src="/assets/img/breadcrumb-shape.png" alt="img" />
       </div>
-      <div class="right-shape">
+      <div class="right-shape d-none d-md-block">
         <img src="/assets/img/breadcrumb-shape-2.png" alt="img" />
       </div>
       <div class="container">
@@ -148,12 +151,12 @@
           </div>
           <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
             <li>
-              <a style="color: white;" href="/"> Home </a>
+              <a  class="homeBreadCrumb" href="/"> Home </a>
             </li>
             <li>
               <i class="fa-solid fa-chevron-right"></i>
             </li>
-            <li style="color: white;" >about us</li>
+            <li  class="pageBreadCrumb" >about us</li>
           </ul>
         </div>
       </div>
