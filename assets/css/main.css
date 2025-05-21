@@ -8198,7 +8198,7 @@ input.main-search-input::placeholder {
      .content-box {
       background-color: #004AAD;
       color: #ffffff;
-      font-weight: bold;
+      font-weight: 500;
       width: 100%;
       max-width: 800px;
       padding: 20px;
