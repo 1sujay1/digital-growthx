@@ -77,33 +77,33 @@ const footerHTML = `
                                 </div>
                                 <ul class="list-area">
                                     <li>
-                                        <a href="#">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Search Engine Optimization (SEO)
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#service">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Social Media Marketing (SMM)
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#news">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Google Ads & PPC Campaigns
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/contact">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Content Marketing & Blogging
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="/contact">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Email Marketing
                                         </a>
@@ -120,31 +120,31 @@ const footerHTML = `
                                 </div>
                                 <ul class="list-area">
                                     <li>
-                                        <a href="#">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Website Development
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#service">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Mobile App Development
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#news">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                            Custom Website Development
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/faq">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             Web Hosting
                                         </a>
                                     </li> 
                                     <li>
-                                        <a href="/contact">
+                                        <a href="/service/">
                                             <i class="fa-solid fa-chevrons-right"></i>
                                             ECommerce Solutions
                                         </a>
