@@ -5,7 +5,7 @@ Version: 1.0.0 */
 /* CSS Table Of Content Starts Here */
 :root {
   
-  --theme: #3C0ED2;
+  --theme: #004AAD;
   --theme2: #c6f806;
   --header: #17012c;
   --text: #504e4e;
@@ -158,7 +158,7 @@ nav {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   animation: fadeInUp 3s ease 0.4s forwards;
-  color: #3C0ED2;
+  color: #004AAD;
 }
 
 /* Services Section */
@@ -194,7 +194,7 @@ nav {
 .main-button .theme-btn {
   display: inline-block;
   padding: 19.5px 35px;
-  background-color:#3C0ED2;
+  background-color:#004AAD;
   color: var(--white);
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
@@ -369,7 +369,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 500;
   font-family:Poppins;
 }
 @media (max-width: 1199px) {
@@ -617,7 +617,7 @@ span {
   .single-circle-bar
   .circle-bar
   .background {
-  background-color: #6774e8 !important;
+  background-color: #004AAD !important;
 }
 .about-wrapper
   .about-content
@@ -1392,7 +1392,7 @@ span {
   width: 100%;
   height: 100%;
   content: "";
-  background-color:#3C0ED2;
+  background-color:#004AAD;
   right: 50px;
   left: 50px;
   border-radius: 30px;
@@ -1489,7 +1489,7 @@ span {
   border: none;
   text-transform: capitalize;
   text-align: center;
-  background-color: var(--theme);
+  background-color: #004AAD;
   color: var(--white);
   font-size: 16px;
   font-weight: 700;
@@ -3719,7 +3719,7 @@ span {
   height: 56px;
   line-height: 56px;
   text-align: center;
-  background-color: var(--theme);
+  background-color: #004AAD;
   color: var(--white);
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
@@ -4416,7 +4416,7 @@ span {
   }
 }
 .hero-3 .hero-content h1 span {
-  background: linear-gradient(90deg, #6a47ed 35.31%, #fb17ff 100%);
+  background: linear-gradient(90deg, #004AAD 35.31%, #fb17ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4564,7 +4564,7 @@ span {
     left top,
     left bottom,
     from(rgba(20, 19, 19, 0)),
-    to(#5e5ef6)
+    to(#004AAD)
   );
   background: linear-gradient(to bottom, rgba(99, 92, 92, 0) 0%, #252527 100%);
   background-repeat: no-repeat;
@@ -5808,7 +5808,7 @@ input.main-search-input::placeholder {
 
 .back-to-top {
   border-radius: 50%;
-  background-color: var(--theme);
+  background-color: #004AAD;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -5842,7 +5842,7 @@ input.main-search-input::placeholder {
 }
 .pricing-box-items .pricing-header {
   border-radius: 16px;
-  background: #3c0ed2;
+  background: #004AAD;
   padding: 24px;
   position: relative;
 }
@@ -5894,7 +5894,7 @@ input.main-search-input::placeholder {
   width: 100%;
   padding: 12px 20px;
   border-radius: 16px;
-  background: #3C0ED2;
+  background: #004AAD;
   display: inline-block;
   color: var(--white);
   font-weight: 700;
@@ -5903,16 +5903,16 @@ input.main-search-input::placeholder {
   margin-left: 10px;
 }
 .pricing-box-items .price-button .theme-btn:hover {
-  background-color: #3C0ED2 ;
+  background-color: #004AAD ;
 }
 .pricing-box-items.style-2 .pricing-header {
-  background: #3C0ED2;
+  background: #004AAD;
 }
 .pricing-box-items.style-2 .price-button .theme-btn {
   border: 1.5px solid var(--theme);
   display: inline-block;
   color: white;
-  background:  #3C0ED2;
+  background:  #004AAD;
 }
 .pricing-box-items.style-2 .price-button .theme-btn:hover {
   background-color: var(--theme);
@@ -5993,8 +5993,8 @@ input.main-search-input::placeholder {
   color: var(--white);
 }
 .pricing-content .pricing-tab-header .save-text {
-  font-weight: 500;
-  color: var(--theme);
+  font-weight: bold;
+  color: #004AAD;
   font-size: 18px;
   text-align: center;
   margin-left: 60%;
@@ -6183,7 +6183,7 @@ input.main-search-input::placeholder {
   height: 100%;
   content: "";
   border-radius: 24px;
-  background: var(--theme);
+  background:#004AAD;
 }
 @media (max-width: 1399px) {
   .case-study-wrapper .main-box .box::before {
@@ -6277,7 +6277,7 @@ input.main-search-input::placeholder {
   .case-study-wrapper .main-box .box .number-hover {
     opacity: 1;
     visibility: visible;
-    background-color: #5e5ef6;
+    background-color: #004AAD;
   }
   .case-study-wrapper .main-box .box .project-content {
     opacity: 1;
@@ -6779,7 +6779,7 @@ input.main-search-input::placeholder {
   margin-bottom: 20px;
 }
 .section-title .sub-title span {
-  background: linear-gradient(90deg, #240cf2 0%, #00a9b5 100%);
+  background: linear-gradient(90deg, #004AAD 0%, #00a9b5 100%);
   display: inline-block;
   font-weight: 700;
   text-transform: uppercase;
@@ -6818,7 +6818,7 @@ input.main-search-input::placeholder {
   line-height: 175%;
   color: var(--text);
   font-style: italic;
-  border-left: 1px solid #6a47ed;
+  border-left: 1px solid #004AAD;
   padding-left: 20px;
 }
 .section-title-area p.white-text {
@@ -8167,7 +8167,7 @@ input.main-search-input::placeholder {
       position: absolute;
       left: 0;
       top: 0;
-      color: #0d6efd;
+      color: #004AAD;
       font-size: 18px;
     }
 
@@ -8191,6 +8191,26 @@ input.main-search-input::placeholder {
         padding: 0px !important;
       }
       .homeBreadCrumb,.pageBreadCrumb{
-        color: #3C0ED2;
+        color: #004AAD;
+      }
+    }
+
+     .content-box {
+      background-color: #004AAD;
+      color: #ffffff;
+      font-weight: bold;
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      text-align: justify;
+      margin: 10px auto;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 600px) {
+      .content-box {
+        padding: 15px;
+        font-size: 14px;
       }
     }
