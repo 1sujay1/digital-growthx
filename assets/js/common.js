@@ -38,7 +38,7 @@ const headerHTML = `<header class="header-area">
       <ul class="dropdown-menu" aria-labelledby="pricingDropdown">
         <li><a class="dropdown-item" href="/pricing/seo-package">SEO Package</a></li>
         <li><a class="dropdown-item" href="/pricing/digital-marketing">Digital Marketing</a></li>
-        <li><a class="dropdown-item" href="/package/web-development.html">Web Development</a></li>
+        <li><a class="dropdown-item" href="../package/web-development.html">Web Development</a></li>
       </ul>
     </li>
 
