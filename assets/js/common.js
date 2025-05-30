@@ -31,6 +31,17 @@ const headerHTML = `<header class="header-area">
           <li class="nav-item">
             <a class="nav-link fw-bold" href="/contact">Contact</a>
           </li>
+             <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle fw-bold" href="#" id="pricingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Pricing
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="pricingDropdown">
+        <li><a class="dropdown-item" href="/pricing/seo-package">SEO Package</a></li>
+        <li><a class="dropdown-item" href="/pricing/digital-marketing">Digital Marketing</a></li>
+        <li><a class="dropdown-item" href="/package/web-development.html">Web Development</a></li>
+      </ul>
+    </li>
+
         </ul>
 
         <!-- Get Started Button -->
