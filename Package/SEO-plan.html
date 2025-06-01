@@ -14,7 +14,7 @@
     />
     <!-- ======== Page title ============ -->
     <title>
-      Terms and condition-digital marketing agency
+      SEO Optimization package - Digital growthX
     </title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="/assets/img/favicon1.png" />
@@ -39,23 +39,224 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="/assets/css/main.css" />
 <style>
-  h1{
-    font-size: 40px;
-  }
+   
 
-  h2{
-    font-size: 25px;
-  }
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
 
-  .container pre {
-  font-family: 'Courier New', monospace;
-  white-space: pre-wrap;
-  background: #f4f4f4;
-  padding: 15px;
+    .pricing-section {
+      width: 100%;
+      text-align: center;
+    }
+
+    .pricing-section h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .pricing-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+      max-width: 300px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .card span.label {
+      display: inline-block;
+      font-size: 13px;
+      color: white;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .label-popular { background: #fabb0d; }
+    .label-basic  {background: #005f5f;}
+    .label-E-commerce {background: #77cd31;}
+    .label-recommended { background: #fc6b04; }
+    .label-elite { background: #8a2be2; }
+
+    .card ul {
+      list-style: none;
+      text-align: left;
+      margin: 15px 0;
+    }
+
+    .card ul li {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card button {
+     margin: 20px auto 0; /* top margin + auto left/right centers it */
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #004AAD;
+  color: white;
+  border: none;
   border-radius: 5px;
-  line-height: 1.6;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block; /* required for auto margins to work on button */
+  
+    }
+
+    .pricing-content-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricing-content-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.7;
   text-align: justify;
 }
+
+.pricing-content-section h1 {
+  font-size: 28px;
+  color: #004AAD;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pricing-content-section p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .pricing-content-section h1 {
+    font-size: 22px;
+  }
+
+  .pricing-content-section p {
+    font-size: 15px;
+  }
+}
+
+    .card button:hover {
+      background: #005f5f;
+    }
+
+    /* 1️⃣  Add a transition so the change animates smoothly */
+.card {
+  background: rgb(185, 185, 180);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+  max-width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* ✨ NEW ✨ */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 2️⃣  Define what should happen on hover */
+.card:hover {
+  transform: translateY(-10px) scale(1.03);          /* lift & zoom */
+  box-shadow: 0 15px 35px rgba(0,0,0,0.18);          /* deeper shadow */
+}
+
+/* (Your existing button hovers stay exactly the same) */
+
+
+    .orange-btn { background: #f27a00; }
+    .orange-btn:hover { background: #c35d00; }
+
+    .purple-btn { background: #8a2be2; }
+    .purple-btn:hover { background: #6c22b3; }
+
+    .maroon-btn { background: #991f4d; }
+    .maroon-btn:hover { background: #761938; }
+
+    @media (max-width: 768px) {
+      .pricing-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+        }
+        h2 {
+            color: #171616;
+            margin-top: 20px;
+            font-size:larger;
+            font-weight: bold;
+            margin-bottom: 10px;
+
+        }
+        p {
+            text-align: justify;
+            color: #666;
+            font-size: 14px;
+        }
+        .pricing {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .pricing p {
+            font-size: 18px;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .cta a {
+            text-decoration: none;
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .cta a:hover {
+            background-color: #e55347;
+        }
 </style>
   </head>
   <body>
@@ -196,7 +397,7 @@
       <div class="container">
         <div class="page-heading">
           <div class="breadcrumb-sub-title">
-            <h1 class="wow fadeInUp" data-wow-delay=".3s">Terms & Conditions</h1>
+            <h1 class="wow fadeInUp" data-wow-delay=".3s">Pricing & Package</h1>
           </div>
           <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
             <li>
@@ -205,67 +406,330 @@
             <li>
               <i class="fa-solid fa-chevron-right"></i>
             </li>
-            <li style="color:white">Term-Condition</li>
+            <li style="color:white">SEO Optimization</li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="main-body">
-    <div class="container">
-      <br>
-    <h1>Terms & Conditions</h1>
+
     <br>
-    <p>Welcome to DigitalGrowthX! These terms and conditions govern your use of our website and our digital marketing services. 
-      By accessing or using our website, located at <a href="https://digitalgrowthx.in" target="_blank">https://digitalgrowthx.in</a>, or engaging our services, 
-      you agree to comply with and be bound by the following terms. If you do not agree to these terms, please do not use our site or services.</p>
-      <br>
-<pre>
-    <h2>1. Definitions</h2>
-    <p>"Client", "You", "Your" refers to the user, visitor, or customer accessing this website or purchasing services from DigitalGrowthX.<br>
-       "Company", "We", "Our", "Us" refers to DigitalGrowthX.<br>
-       "Services" refers to digital marketing services including SEO, SMM, PPC, content marketing, and web development.</p>
 
-    <h2>2. Use of Website</h2>
-    <p>You must be at least 18 years old to use this site. You agree to use our website only for lawful purposes and not for any unauthorized or illegal activities.</p>
+     <!-- <div class="container">
+    <section class="pricing-section">
+      <h2>OUR AFFORDABLE WEB DESIGN AND DEVELOPMENT PACKAGES</h2> -->
 
-    <h2>3. Services & Engagement</h2>
-    <p>By engaging our services, you agree to provide accurate, complete information. We are not responsible for delays or outcomes resulting from missing inputs or approvals.</p>
+      <section class="pricing-content-section">
+  <div class="container">
+    <h1>SEO Optimization Packages & Pricing</h1>
+        
+        <h2>Boost Your Online Presence with Our SEO Services</h2>
+        <p>At Digital growthX, we offer tailor-made <strong>SEO optimization packages</strong> designed to help your business grow in search engine rankings. Whether you need <strong>local SEO</strong>, <strong>domestic SEO</strong>, or <strong>international SEO</strong>, we have solutions to match your needs.</p>
+        <p>Our <strong>SEO optimization services</strong> cover every aspect of search engine optimization, from <strong>on-page SEO</strong> to <strong>off-page SEO</strong>, ensuring your website gets the visibility it deserves. We understand the importance of delivering SEO results that drive traffic, generate leads, and increase conversions.</p>
 
-    <h2>4. Intellectual Property</h2>
-    <p>All content and materials created or provided by DigitalGrowthX remain our property unless stated otherwise. Unauthorized copying or redistribution is prohibited.</p>
+        <h2>Customized SEO Solutions for Every Business</h2>
+        <p>Our <strong>SEO optimization packages</strong> are carefully crafted to suit businesses of all sizes. The initial <strong>website analysis</strong> includes keyword research, content optimization, and a thorough <strong>SEO audit</strong>. From there, we optimize your site with the best SEO strategies, including <strong>on-page SEO optimization</strong> and high-quality <strong>off-page SEO strategies</strong>.</p>
+        <p>We also offer <strong>monthly project reporting</strong> to keep track of your SEO progress, providing transparency and insights into your website's <strong>SEO performance</strong>. Whether you're targeting local customers, expanding nationally, or looking to reach a global audience, our SEO services are designed to scale.</p>
+        <p>By using advanced techniques like <strong>social bookmarking</strong>, <strong>guest posting</strong>, <strong>PPT & PDF submissions</strong>, and <strong>blog writing</strong>, we ensure that your website not only ranks well but also keeps up with the evolving search engine algorithms.</p>
 
-    <h2>5. Client Responsibilities</h2>
-    <p>You agree that all materials you provide (content, images, etc.) do not infringe on third-party rights and are lawful.</p>
+        <h2>Choose Your Perfect SEO Package</h2>
+        <p>We offer competitive pricing for our SEO packages. Our plans are designed to suit businesses at every stage of growth, from startups to established brands. Contact us to receive a personalized SEO quote and start your journey towards online success.</p>
 
-    <h2>6. Payment Terms</h2>
-    <p>Payments must be made per the terms on our invoice or agreement. Late payments may result in suspension of service or additional charges.</p>
+        <div class="cta">
+            <a href="#">Grow Your Business</a>
+        </div>
+    </div>
+  </div>
+</section>
+<br>
 
-    <h2>7. Termination</h2>
-    <p>Either party may terminate services with 30 days’ notice. Fees for services rendered prior to termination are still applicable.</p>
+      
+      <div class="pricing-grid">
+        <div class="card">
+          <h3>Local SEO</h3>
+        
+          <span class="label label-basic">LOCAL</span>
+          <ul>
+            <ul>
+  <li><h2 style="font-size: medium; font-weight: bold;">Initial Website Analysis</h2></li>
+    <ul>
+      <li>Website audit</li>
+      <li>Keyword research and analysis</li>
+      <li>Competitor analysis</li>
+      <li>Duplicate content analysis</li>
+      <li>Broken links and page size check</li>
+    </ul>
+  <li> <h2 style="font-size: medium; font-weight: bold;">On-Page SEO Optimization</h2></li>
+    <ul>
+      <li>Title tag optimization</li>
+      <li>Meta tags optimization</li>
+      <li>Image optimization</li>
+      <li>URL canonicalization check</li>
+      <li>Robots.txt optimization</li>
+      <li>Alt tag optimization</li>
+      <li>Anchor text optimization</li>
+      <li>W3 validation check</li>
+      <li>Existing content optimization</li>
+      <li>Website structure analysis</li>
+      <li>URL mapping and rewriting</li>
+      <li>New page creation</li>
+    </ul>
+  <li> Content Marketing</h2></li>
+    <ul>
+      <li>Blog Writing</li>
+      <li>Article Writing</li>
+      <li>Press Release Writing</li>
+      <li>Guest Post Writing</li>
+    </ul>
+  <li><h2 style="font-size: medium; font-weight: bold;">Off-Page SEO Optimization</h2></li>
+    <ul>
+      <li>Social bookmarking</li>
+      <li>Article submission</li>
+      <li>Web 2.0 submission</li>
+      <li>Article social bookmarking</li>
+      <li>Press release submission</li>
+      <li>Classifieds submission</li>
+      <li>Blog commenting</li>
+      <li>Guest posting</li>
+      <li>Image submission</li>
+      <li>Business listing</li>
+      <li>Blog RSS submission</li>
+      <li>Profile Creation</li>
+      <li>Video submission</li>
+      <li>Blog directory submission</li>
+      <li>Document & PDF submission</li>
+      <li>PPT & Slide submission</li>
+      <li>Competitor backlinks</li>
+      <li>Broken link building</li>
+    </ul>
+  
 
-    <h2>8. Third-Party Tools</h2>
-    <p>We may use third-party platforms for service delivery. You agree to comply with those platforms' terms as well.</p>
+  <li><h2 style="font-size: medium; font-weight: bold;">Local SEO Optimization</h2></li>
+    <ul>
+      <li>Google business listing</li>
+      <li>Local citation building</li>
+      <li>Local search engine submission</li>
+      <li>Updating local listing pages</li>
+      <li>Geo tagging</li>
+      <li>GMB optimization</li>
+      <li>Local Classifieds submission</li>
+    </ul>
 
-    <h2>9. Cookies</h2>
-    <p>Our site uses cookies. By using our site, you consent to our use of cookies in accordance with our privacy policy.</p>
+  <li><h2 style="font-size: medium; font-weight: bold;">Monthly Project Reporting</h2></li>
+    <ul>
+      <li>Search engine ranking report</li>
+      <li>Google analytics report</li>
+      <li>SEO Activity report</li>
+      <li>Backlinks report</li>
+    </ul>
+    <br>
+</ul>
+          <a href="\contact\index.html">
+  <button class="purple-btn">GET A QUOTE</button>
+</a>
+        </div>
+        <br>
+        <div class="card">
+          <h3>Domestic SEO</h3>
+          <span class="label label-popular">DOMESTIC SEO</span>
+          <ul>
+  <li><h2 style="font-size: medium; font-weight: bold;">Initial Website Analysis</h2></li>
+    <ul>
+      <li>Website audit</li>
+      <li>Keyword research and analysis</li>
+      <li>Competitor analysis</li>
+      <li>Duplicate content analysis</li>
+      <li>Broken links and page size check</li>
+    </ul>
+  </li>
+  <li><h2 style="font-size: medium; font-weight: bold;">On-Page SEO Optimization</h2></li>
+  
+    <ul>
+      <li>Title tag optimization</li>
+      <li>Meta tags optimization</li>
+      <li>Image optimization</li>
+      <li>URL canonicalization check</li>
+      <li>Robots.txt optimization</li>
+      <li>Alt tag optimization</li>
+      <li>Anchor text optimization</li>
+      <li>W3 validation check</li>
+      <li>Existing content optimization</li>
+      <li>Website structure analysis</li>
+      <li>URL mapping and rewriting</li>
+      <li>New page creation</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Content Marketing</h2></li>
+    <ul>
+      <li>Blog Writing</li>
+      <li>Article Writing</li>
+      <li>Press Release Writing</li>
+      <li>Guest Post Writing</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Off-Page SEO Optimization</h2></li>
+    <ul>
+      <li>Social bookmarking</li>
+      <li>Article submission</li>
+      <li>Web 2.0 submission</li>
+      <li>Article social bookmarking</li>
+      <li>Press release submission</li>
+      <li>Classifieds submission</li>
+      <li>Blog commenting</li>
+      <li>Guest posting</li>
+      <li>Image submission</li>
+      <li>Business listing</li>
+      <li>Blog RSS submission</li>
+      <li>Profile Creation</li>
+      <li>Video submission</li>
+      <li>Blog directory submission</li>
+      <li>Document & PDF submission</li>
+      <li>PPT & Slide submission</li>
+      <li>Competitor backlinks</li>
+      <li>Broken link building</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Local SEO Optimization</h2></li>
+    <ul>
+      <li>Google business listing</li>
+      <li>Local citation building</li>
+      <li>Local search engine submission</li>
+      <li>Updating local listing pages</li>
+      <li>Geo tagging</li>
+      <li>GMB optimization</li>
+      <li>Local Classifieds submission</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Monthly Project Reporting</h2></li>
+    <ul>
+      <li>Search engine ranking report</li>
+      <li>Google analytics report</li>
+      <li>SEO Activity report</li>
+      <li>Backlinks report</li>
+    </ul>
+  </li>
+</ul>
+         <a href="\contact\index.html">
+  <button class="purple-btn">GET A QUOTE</button>
+</a>
+        </div>
+<br>
+<div class="card">
+          <h3>International SEO</h3>
+          <span class="label label-popular">INTERNATIONAL SEO</span>
+          <ul>
+ <li><h2 style="font-size: medium; font-weight: bold;">Initial Website Analysis</h2></li>
+    <ul>
+      <li>Website audit</li>
+      <li>Keyword research and analysis</li>
+      <li>Competitor analysis</li>
+      <li>Duplicate content analysis</li>
+      <li>Broken links and page size check</li>
+    </ul>
+  </li>
+  <li><h2 style="font-size: medium; font-weight: bold;">On-Page SEO Optimization</h2></li>
+    <ul>
+      <li>Title tag optimization</li>
+      <li>Meta tags optimization</li>
+      <li>Image optimization</li>
+      <li>URL canonicalization check</li>
+      <li>Robots.txt optimization</li>
+      <li>Alt tag optimization</li>
+      <li>Anchor text optimization</li>
+      <li>W3 validation check</li>
+      <li>Existing content optimization</li>
+      <li>Website structure analysis</li>
+      <li>URL mapping and rewriting</li>
+      <li>New page creation</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Content Marketing</h2></li>
+    <ul>
+      <li>Blog Writing</li>
+      <li>Article Writing</li>
+      <li>Press Release Writing</li>
+      <li>Guest Post Writing</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Off-Page SEO Optimization</h2></li>
+    <ul>
+      <li>Social bookmarking</li>
+      <li>Article submission</li>
+      <li>Web 2.0 submission</li>
+      <li>Article social bookmarking</li>
+      <li>Press release submission</li>
+      <li>Classifieds submission</li>
+      <li>Blog commenting</li>
+      <li>Guest posting</li>
+      <li>Image submission</li>
+      <li>Business listing</li>
+      <li>Blog RSS submission</li>
+      <li>Profile Creation</li>
+      <li>Video submission</li>
+      <li>Blog directory submission</li>
+      <li>Document & PDF submission</li>
+      <li>PPT & Slide submission</li>
+      <li>Competitor backlinks</li>
+      <li>Broken link building</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">International SEO </h2></li>
 
-    <h2>10. Limitation of Liability</h2>
-    <p>We are not liable for indirect or consequential losses. Service results may vary and are not guaranteed due to factors beyond our control.</p>
+    <ul>
+      <li>ccTLD Selection and Configuration</li>
+      <li>Hreflang tag implementation</li>
+      <li>International website structure optimization</li>
+      <li>Content localization</li>
+      <li>Cultural content syndication</li>
+      <li>Geotargeting</li>
+    </ul>
+  </li>
+<li><h2 style="font-size: medium; font-weight: bold;">Monthly Project Reporting</h2></li>
+    <ul>
+      <li>Search engine ranking report</li>
+      <li>Google analytics report</li>
+      <li>SEO Activity report</li>
+      <li>Backlinks report</li>
+    </ul>
+  </li>
+</ul>
+  <!-- <button class="purple-btn">GET A QUOTE</button> -->
+   <a href="\contact\index.html">
+  <button class="purple-btn">GET A QUOTE</button>
+</a>
+        </div>
 
-    <h2>11. Revisions</h2>
-    <p>We may update these terms without notice. Continued use of our website implies acceptance of the updated terms.</p>
+        <br>
 
-    <h2>12. Governing Law</h2>
-    <p>These terms are governed by the laws of India. Disputes are subject to the courts in [Your City], India.</p>
 
-    <h2>13. Contact Us</h2>
-    <p>📧 Email: [your-email@digitalgrowthx.in]<br>
-       📞 Phone: [Your Contact Number]<br>
-       🌐 Website: <a href="https://digitalgrowthx.in" target="_blank">digitalgrowthx.in</a></p>
-       </pre>
-
-       </div>
+        
+        <!-- <div class="card">
+          <h3>E-Commerce</h3>
+          <span class="label label-E-commerce"><E-COMMERCE></span>
+            <br>
+          <ul>
+            <li>Landing Page</li>
+            <li>Product Grid Page</li>
+            <li>Single Product Page</li>
+            <li>Order Confirmation Page</li>
+            <li>Responsive Design</li>
+            <li>Intuitive User Interface</li>
+            <li>Product Catalogue</li>
+            <li>Secure Payment Gateway</li>
+            <li>Order and Inventory Management</li>
+            <li>Customer Reviews and Ratings</li>
+            <li>Social Media Integration</li>
+            <li>Analytics and Reporting</li>
+            <li>Deployment in Server</li>
+            <li>3 Month Free Maintenance after launch</li>
+          </ul>
+          <button  class="orange-btn">GET A QUOTE</button>
+        </div> -->
+      </div>
+    </section>
+  </div>
+<br>
+<br>
 
     <!-- Footer Section Start -->
     <div id="footer"></div>
