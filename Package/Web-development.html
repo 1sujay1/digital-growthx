@@ -62,7 +62,7 @@
     .pricing-grid {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 10px;
       justify-content: center;
     }
 
@@ -70,7 +70,7 @@
       background: white;
       border-radius: 8px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      flex: 1 1 300px;
+      flex: 0 1 300px;
       max-width: 300px;
       padding: 20px;
       display: flex;
@@ -115,8 +115,8 @@
 
     .card button {
       margin-top: auto;
-      padding: 10px;
-      font-size: 14px;
+      padding: 5px;
+      font-size: 10px;
       font-weight: bold;
       background:#004AAD;
       color: white;
@@ -170,15 +170,19 @@
 
     /* 1️⃣  Add a transition so the change animates smoothly */
 .card {
+ 
   background: rgb(185, 185, 180);
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  flex: 1 1 300px;
+  flex: 0 1 300px;
   max-width: 300px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 700px; /* Ensures height match */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
   /* ✨ NEW ✨ */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -212,6 +216,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.card ul {
+  flex-grow: 1;
 }
 
 </style>
@@ -411,8 +418,7 @@
       <div class="pricing-grid">
         <div class="card">
           <h3>Basic</h3>
-        
-          <span class="label label-basic">BASIC</span>
+          <span  class="label label-basic">BASIC</span>
           <ul>
             <li>Parallax/Single Page Design – CMS</li>
             <li>Mobile Responsive</li>

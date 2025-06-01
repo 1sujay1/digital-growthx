@@ -8214,3 +8214,64 @@ input.main-search-input::placeholder {
         font-size: 14px;
       }
     }
+
+    
+    section.cards-section {
+      width: 90%;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .card {
+      flex: 1 1 calc(33.33% - 20px);
+      background-color: #e9f1fb;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+      aspect-ratio: 1/0.5;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex: 1 1 100%;
+        aspect-ratio: 1 / 1;
+      }
+    }
+.center-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .card button {
+     margin: 20px auto 0; /* top margin + auto left/right centers it */
+  padding: 5px;
+  font-size: 10px;
+  font-weight:500;
+  background: #004AAD;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block; /* required for auto margins to work on button */
+    }
