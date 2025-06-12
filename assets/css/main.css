@@ -6787,6 +6787,7 @@ input.main-search-input::placeholder {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 14px;
+  
 }
 .section-title .sub-title.bg-color-2 {
   background: rgba(56, 75, 255, 0.1);
