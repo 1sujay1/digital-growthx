@@ -8282,7 +8282,7 @@ input.main-search-input::placeholder {
      body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #fff;
+      background-color: #121212;
       
     }
 
@@ -8515,7 +8515,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: #fff;
-  color: #efe9e9;
+  color: #070707;
 }
 
 /* Section */
